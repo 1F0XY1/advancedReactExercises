@@ -1,0 +1,30 @@
+.paginated-users-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .pagination-controls {
+    margin-top: 20px;
+  }
+  
+  .pagination-controls button {
+    padding: 5px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #ccc;
+  }
+  
+  .back-button {
+    display: block;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .back-button:hover {
+    text-decoration: underline;
+  }
+  

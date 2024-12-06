@@ -1,0 +1,47 @@
+.fetch-users-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fetch-users-container button {
+  background-color: #909090;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; 
+}
+
+.fetch-users-container button:hover {
+  background-color: #5e5e5e;
+}
+
+.fetch-users-container h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.fetch-users-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fetch-users-container li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.fetch-users-container li strong {
+  font-size: 18px;
+  color: #333;
+}
+

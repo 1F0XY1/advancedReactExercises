@@ -1,0 +1,52 @@
+.fetch-error-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #909090;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #5e5e5e;
+  }
+  
+  .retry-button {
+    margin: 15px;
+    padding: 10px 20px;
+    background-color: #2dae92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .retry-button:hover {
+    background-color: #278e67;
+  }
+  
+  .spinner {
+    color: #007bff;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .data-display {
+    margin-top: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: monospace;
+  }
+  

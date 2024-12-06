@@ -1,0 +1,48 @@
+.infinite-scroll-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .infinite-scroll-container .back-button {
+    display: inline-block;
+    background-color: #909090;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .infinite-scroll-container .back-button:hover {
+    background-color: #5e5e5e;
+  }
+  
+  .infinite-scroll-container .posts {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .infinite-scroll-container .post {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .infinite-scroll-container .post h3 {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .infinite-scroll-container .post p {
+    font-size: 14px;
+    color: #555;
+  }
+  

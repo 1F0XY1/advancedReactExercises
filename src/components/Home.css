@@ -1,0 +1,91 @@
+/* Home.css */
+.home-container {
+  padding: 30px;
+  background-color: #e4e9f2;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: 50px auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.home-container h1 {
+  font-size: 42px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home-container ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.home-container li {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-container li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.home-container li a {
+  text-decoration: none;
+  color: #0ab94a;
+  font-size: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.home-container li a:hover {
+  color: #107532;
+}
+
+.home-container li a:visited {
+  color: #15708e;
+}
+
+.home-container li:active {
+  background-color: #f9f9f9;
+}
+
+.home-container li.clicked {
+  background-color: #d1e7ff;
+}
+
+.home-container li.clicked a {
+  color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .home-container {
+    padding: 20px;
+  }
+
+  .home-container h1 {
+    font-size: 32px;
+  }
+
+  .home-container li {
+    padding: 15px;
+  }
+}

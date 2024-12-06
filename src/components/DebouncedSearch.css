@@ -1,0 +1,38 @@
+.back-button {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #5e5e5e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #909090;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  ul li strong {
+    font-size: 18px;
+  }
+  
